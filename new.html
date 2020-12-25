@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.css">
+    <script src="https://kit.fontawesome.com/f8aa197cbc.js" crossorigin="anonymous"></script>
+    <title>RV Design</title>
+    <style>
+        .img1 {
+            width: 200px;
+            margin-left: 50px;
+        }
+
+        .f1 {
+            margin-left: -60px;
+            margin-top: 40px;
+        }
+
+        .home1 {
+            display: none;
+        }
+
+        .j2 {
+            display: none;
+        }
+
+        .non1 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $(".home1").show("slide", { direction: 'down' }, 2000);
+            $(".j2").show("slide", { direction: 'right' }, 2000);
+            $(".a1").show("slide", { direction: 'down' }, 2000);
+            $(".a2").show("slide", { direction: 'down' }, 2500);
+            $(".a3").show("slide", { direction: 'down' }, 2700);
+            $(".a4").show("slide", { direction: 'down' }, 2900);
+            $(".a5").show("slide", { direction: 'down' }, 3000);
+            $(".a6").show("slide", { direction: 'down' }, 3200);
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".s1").offset().top;
+                var wh1 = $(".s1").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".b1").show("slide", { direction: 'left' }, 2000);
+                    $(".b2").show("slide", { direction: 'right' }, 2000);
+                    $(".ba1").show("slide", { direction: 'down' }, 2000);
+
+                }
+            });
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".3S").offset().top;
+                var wh1 = $(".3S").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".c1").show("slide", { direction: 'down' }, 2000);
+                    $(".c2").show("slide", { direction: 'down' }, 2100);
+                    $(".c3").show("slide", { direction: 'down' }, 2200);
+                    $(".c4").show("slide", { direction: 'down' }, 2300);
+                    $(".c5").show("slide", { direction: 'down' }, 2400);
+                    $(".c6").show("slide", { direction: 'down' }, 2500);
+                    $(".c7").show("slide", { direction: 'down' }, 2600);
+                    $(".c8").show("slide", { direction: 'down' }, 2700);
+
+                }
+            });
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".4S").offset().top;
+                var wh1 = $(".4S").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".D1").show("slide", { direction: 'left' }, 2000);
+                    $(".D2").show("slide", { direction: 'right' }, 2000);
+
+                }
+            });
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".5S").offset().top;
+                var wh1 = $(".5S").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".E1").show("slide", { direction: 'right' }, 2000);
+                    $(".Ea1").show("slide", { direction: 'down' }, 2000);
+                    $(".Ea2").show("slide", { direction: 'down' }, 2000);
+                    $(".Ea3").show("slide", { direction: 'down' }, 2000);
+                }
+            });
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".6S").offset().top;
+                var wh1 = $(".6S").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".F1").show("slide", { direction: 'up' }, 2000);
+                    $(".F2").show("slide", { direction: 'down' }, 2000);
+                    $(".F3").show("slide", { direction: 'down' }, 2000);
+                    $(".F4").show("slide", { direction: 'down' }, 2000);
+                }
+            });
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".7S").offset().top;
+                var wh1 = $(".7S").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".G1").show("slide", { direction: 'left' }, 2000);
+                    $(".G2").show("slide", { direction: 'right' }, 2000);
+
+                }
+            });
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".8S").offset().top;
+                var wh1 = $(".8S").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".H1").show("slide", { direction: 'up' }, 2000);
+                    $(".H2").show("slide", { direction: 'up' }, 2200);
+                    $(".H3").show("slide", { direction: 'up' }, 2400);
+
+
+                }
+            });
+
+            $(window).scroll(function () {
+                var wh = $(window).height();
+                var ws = $(this).scrollTop();
+                var ht = $(".9S").offset().top;
+                var wh1 = $(".9S").outerHeight();
+                if (ws > (ht + wh1 - wh)) {
+                    $(".J1").show("slide", { direction: 'up' }, 2000);
+                    // $(".H2").show("slide", { direction: 'up' }, 2200);
+                    // $(".H3").show("slide", { direction: 'up' }, 2400);
+
+
+                }
+            });
+
+          
+
+        });
+    </script>
+    <div class="container-xl">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand text-uppercase ml-4" href="#"><span class="fas fa-copyright navCopy"
+                    style="font-size:30px"></span> cc-ico</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="margin-left:450px;">
+                    <a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">ABOUT</a>
+                    <a class="nav-item nav-link" href="#">FEATURES</a>
+                    <a class="nav-item nav-link" href="#">DASHBOARD</a>
+                    <a class="nav-item nav-link" href="#">BUY NOW</a>
+                    <a class="nav-item nav-link" href="#">TESTIMONAL</a>
+                    <a class="nav-item nav-link" href="#">FAQ</a>
+                    <a class="nav-item nav-link" href="#">CONTACT US</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="bg-warning">
+        <div class="row">
+            <div class="col-lg-9 home1 ">
+                <div><br><br>
+                    <span class="text-uppercase my-5 ml-5">fastest & easiest way to</span><br>
+                    <h1 class="my-1 ml-5">BUY,SELL,TRADE</h1>
+                    <span class="text-uppercase my-1 ml-5">cryptocurrencies</span>
+                </div>
+                <div class="w-75 my-4 ml-5">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, facilis inventore
+                    incidunt quos doloremque non commodi eveniet ipsum exercitationem aliquid ratione ea
+                    voluptatem nesciunt, voluptatibus saepe velit voluptas ipsa sed! Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.</div>
+                <img src="./appstore.jpg" alt="appstore" class="img1">
+                <img src="./googleplay.jpg" alt="appstore" class="img1"><br>
+            </div>
+
+            <div class=" col-lg-3 f1 float-right">
+                <div class="bg-light p-3 j2 registerForm">
+                    <h3 class="text-center">Free Registration</h3>
+                    <form>
+                        <input type="text " placeholder="First Name " style="width:46% ">
+                        <input type="text " placeholder="Last Name " class=" my-2 ml-3 " style="width: 46%; "><br>
+                        <input type="email " name="email " id="email " placeholder="Email " class=" my-2 w-100 ">
+                        <input type="text " placeholder="phone " class=" my-2 w-100 ">
+                        <select class=" my-2 w-100 " name="Country " id="country ">
+                            <option value="india " class="text-uppercase ">INDIA</option>
+                            <option value="usa " class="text-uppercase ">USA</option>
+                        </select><br>
+                        <center> <button class="btn btn-primary">OPEN ACCOUNT</button></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="h-100 px-5 ">
+        <div class="row ml-lg-5 ml-sm-3 text-center">
+            <div class="col-2 text-uppercase a1 non1">
+                <img src="./bitcoin.png" alt=" " class="w-25">
+                <h5 class="">8000 usd</h5>
+            </div>
+            <div class="col-2 text-uppercase a2 non1">
+                <img src="./bitcoin1.png" alt=" " class="w-25">
+                <h5>8000 usd</h5>
+            </div>
+            <div class="col-2 text-uppercase a3 non1">
+                <img src="./bitcoin2.png" alt=" " class="w-25">
+                <h5>8000 usd</h5>
+            </div>
+            <div class="col-2 text-uppercase a4 non1">
+                <img src="./bitcoin3.png " alt=" " class="w-25 ">
+                <h5>8000 usd</h5>
+
+            </div>
+            <div class="col-2 text-uppercase a5 non1">
+                <img src="./bitcoin4.png" alt=" " class="w-25 ">
+                <h5>8000 usd</h5>
+            </div>
+            <div class="col-2 text-uppercase a6 non1">
+                <img src="./bitcoin5.png" alt=" " class="w-25 ">
+                <h5>8000 usd</h5>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="h-100 p-5 s1">
+        <div>
+            <h1 class="text-center pb-5 ">ABOUT US</h1>
+            <div class="row pb-5">
+                <div class="col b1 non1">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quaerat
+                        voluptatum quia ab vero, earum sapiente voluptatibus porro modi temporibus atque ullam repellat
+                        amet, laudantium nesciunt, harum vitae tempore nam!</p>
+                </div>
+                <div class="col b2 non1">
+                    <p class="h5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia officiis iusto placeat veniam
+                        obcaecati laudantium eaque impedit perferendis est modi. Suscipit quis quidem ipsam non, natus
+                        minima at architecto accusantium.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ba1 non1">
+            <h3 class="text-capitalize text-center py-4 ">easy to buy crypto currency</h3>
+            <div class="row ">
+                <div class="col-sm-12 text-center col-lg-4 slideUp-1 D-none ">
+                    <span class=" h1 d-inline ">1</span>
+                    <span style="font-size:20px;"><a href=" " style="font-size:30px;">Register</a> your trading
+                        account</span>
+                </div>
+                <div class="col-sm-12 text-center col-lg-4 slideUp-2 D-none ">
+                    <span class="mr-5 fas fa-arrow-right text-warning" style="font-size:25px"></span>
+                    <span class="h1 d-inline ">2</span>
+                    <span style="font-size:20px;"><a href=" " style="font-size:30px;">Register</a> your trading
+                        account</span>
+                </div>
+                <div class="col-sm-12 text-center col-lg-4 slideUp-3 D-none ">
+                    <span class="mr-5 fas fa-arrow-right text-warning" style="font-size:25px"></span>
+                    <span class="h1 d-inline ">3</span>
+                    <span style="font-size:20px;"><a href=" " style="font-size:30px;">Register</a> your trading
+                        account</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100  bg-light 3S ">
+        <div class="section-content h-100 p-5 ">
+            <h1 class="text-center py-4 ">WHY CHOOSE US?</h1>
+            <div class="row text-center ">
+                <div class="col-lg-3 c1 non1 ">
+                    <h4 class="text-capitalize ">fair</h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-calculator "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+                <div class="col-lg-3 c2 non1 ">
+                    <h4 class="text-capitalize ">fast</h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-rocket "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+                <div class="col-lg-3 c3 non1 ">
+                    <h4 class="text-capitalize ">secure</h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-lock "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+                <div class="col-lg-3 c4 non1 ">
+                    <h4 class="text-capitalize ">multicoin</h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-coins "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+            </div>
+            <div class="row text-center ">
+                <div class="col-lg-3 c5 non1 ">
+                    <h4 class="text-capitalize ">online payment</h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-money-check "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+                <div class="col-lg-3 c6 non1 ">
+                    <h4 class="text-capitalize ">legal </h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-file-contract "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+                <div class="col-lg-3 c7 non1 ">
+                    <h4 class="text-capitalize ">commisions</h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-percentage "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+                <div class="col-lg-3 c8 non1 ">
+                    <h4 class="text-capitalize ">withdraw</h4>
+                    <span class="h5 text-capitalize my-3 text-warning fas fa-money-check-alt "
+                        style="font-size: 60px; "></span><br>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis accusantium
+                        recusandae numquam dignissimos error voluptatibus, quo neque! Asperiores, obcaecati?</p>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 bg-white h-100 4S ">
+            <div class="row ">
+                <div class="col-lg-7 col-sm-12 D1 non1 "> <video src="./cryptocurrency.mp4" class="w-75" controls
+                        autoplay></video></div>
+                <div class="col-lg-4 col-sm-12 D2 non1 ">
+                    <h4>How to buy sell Crypto Currency?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officia recusandae ad maiores
+                        dolorem. Accusamus ratione est iste pariatur saepe alias similique voluptate, ipsam ad totam
+                        delectus quis id, blanditiis amet earum, laborum temporibus molestiae
+                        veritatis debitis nulla tenetur illo soluta harum eius? Cum aliquid officiis deleniti laborum,
+                        voluptas error?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100 p-5 dashbordSlide bg-light 5S">
+        <h1 class="text-center py-4 ">CREATE OUR PORTFOLIO</h1>
+        <div class="row ">
+            <div class="col-lg-5 ">
+                <div class="Ea1 non1 ">
+                    <span class="icon-dashbord fas fa-suitcase-rolling "></span> <span
+                        class="h5 text-capitalize ">manage portfolio</span>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorum?</p>
+                </div>
+                <div class="Ea2 non1 ">
+                    <span class="icon-dashbord fas fa-satellite-dish "></span> <span class="h5 text-capitalize ">manage
+                        portfolio</span>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorum?</p>
+                </div>
+                <div class="Ea3 non1 ">
+                    <span class="icon-dashbord fas fa-mobile "></span> <span class="h5 text-capitalize ">manage
+                        portfolio</span>
+                    <p class="my-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorum?</p>
+                </div>
+            </div>
+            <div class="col-lg-7 E1 non1 ">
+                <img src="./admin-panel.png" class="w-100 " alt=" ">
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100 pt-5 6S ">
+        <div class="text-center ">
+            <h1 class="text-center py-2 ">Buy Cryptocurrency</h1>
+            <div class="py-4 F1 non1">
+                <h3 class="py-2 text-capitalize ">buy and sell coins at the CC-ICO <br>without additinal fees</h3>
+                <p class="m-0 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+                    expedita.</p>
+            </div>
+            <div class="p-3 py-4 w-50 mx-auto bg-info ">
+                <span class="h5 px-lg-5 px-sm-3 py-lg-2 bg-white F2 non1">1</span>
+                <span class="h5 px-lg-5 px-sm-3 py-lg-2 ">btc = </span>
+                <span class="h5 px-lg-5 px-sm-3 py-lg-2 bg-white F3 non1 ">888888</span>
+                <span class="h5 px-lg-3 px-sm-2 py-lg-2 bg-white F4 non1  text-uppercase ">usd</span>
+            </div>
+            <button class="text-white text-capitalize btn bg-primary my-3 ">buy now</button>
+            <h5 class="my-3 ">Trade on the go download the app</h5>
+            <input type="text " placeholder="Enter your mobile number " class="w-25 ">
+            <button class="btn bg-primary text-capitalize text-white ml-2 ">get started</button></input>
+        </div>
+        <div class=" bg-warning p-4 mt-5 text-center ">
+            <div class="row ">
+                <div class="col-lg-3 ">
+                    <h3 class="dynamicSlide-1">51232</h3>
+                    <span>$ Transation per day</span>
+                </div>
+                <div class="col-lg-3 ">
+                    <h3 class="dynamicSlide-2 ">10</h3>
+                    <span>$ Transation per day</span>
+                </div>
+                <div class="col-lg-3 ">
+                    <h3 class="dynamicSlide-3 ">32121</h3>
+                    <span>$ Transation per day</span>
+                </div>
+                <div class="col-lg-3 ">
+                    <h3 class="dynamicSlide-4 ">51</h3>
+                    <span>$ Transation per day</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100 p-5  7S">
+        <h1 class=" text-center pt-2 pb-5 "> TEXTIMONIAL</h1>
+            <div class="row ">
+        <div class="col-lg-9 G1 non1 ">
+            <p class="w-75 ">
+                <i>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Placeat,
+                    amet! sit amet consectetur adipisicing elit. Illo, hic. Lorem ipsum dolor sit amet,
+                    consectetur
+                    adipisicing elit. Fugiat inventore, quidem sed veritatis impedit possimus!
+                </i>
+            </p>
+        </div>
+        <div class="col-lg-3 text-center G2 non1 ">
+            <h5>Ravikumar Dabhade</h5>
+            <span class="text-capitalize ">bitcoin byer</span>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="h-100 p-5 8S bg-light">
+        <h1 class="text-center pb-4 ">Frequently Asked Question</h1>
+        <div class="section-content w-75 mx-auto ">
+            <div class="card H1 text-center non1">
+                <h3 class="coll1 text-white bg-warning text-uppercase p-1 m-0">What is ico</h3>
+                <p class="p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi totam alias
+                    reprehenderit, repellat voluptatibus eos esse omnis architecto repellendus sunt ut nemo pariatur
+                    tempora laudantium id modi consequuntur suscipit a.</p>
+            </div><br>
+            <div class="card H2 text-center non1 ">
+                <h3 class="coll2 text-white bg-warning text-uppercase m-0 p-1">why is ico</h3>
+                <p class="p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi totam alias
+                    reprehenderit, repellat voluptatibus eos esse omnis architecto repellendus sunt ut nemo pariatur
+                    tempora laudantium id modi consequuntur suscipit a.</p>
+            </div><br>
+            <div class="card H3 text-center non1 ">
+                <h3 class="coll3 text-white bg-warning text-uppercase m-0 p-1">it is ico</h3>
+                <p class="p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi totam alias
+                    reprehenderit, repellat voluptatibus eos esse omnis architecto repellendus sunt ut nemo pariatur
+                    tempora laudantium id modi consequuntur suscipit a.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100 p-5 9S">
+        <h1 class="text-center py-4 pb-6 ">CONTACT US</h1>
+        <div>
+            <center>
+                <form action=" " class=" w-25 J1">
+                    <label style="margin-bottom: -35px; ">Your Name</label><br>
+                    <input type="text " class="inputBorder w-100 ">
+                    <label class="mt-3 " style="margin-bottom: -35px; ">Your Email</label><br>
+                    <input type="text " class="inputBorder w-100 ">
+                    <label class="mt-3 " style="margin-bottom: -35px; ">Your Message</label><br>
+                    <textarea rows="3 " class="inputBorder w-100 "></textarea>
+                    <div class="w-100 text-center ">
+                        <input type="button " value="submit " class="text-center btn bg-info text-uppercase text-white">
+                    </div>
+                </form>
+            </center>
+        </div>
+        <div class="row">
+            <div class="col-lg-9 mt-4">
+                <div style="font-size: 25px; ">
+                    <i class="text-dark fab fa-facebook margin-l-10 "></i>
+                    <i class="text-dark fab fa-google-plus margin-l-10 "></i>
+                    <i class="text-dark fab fa-twitter margin-l-10 "></i>
+                    <i class="text-dark fab fa-linkedin margin-l-10 "></i>
+                    <i class="text-dark fab fa-instagram margin-l-10 "></i>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-expand-sm py-2 px-0 " style="font-size:12px ">
+                    <ul class="navbar-nav mt-2 mt-lg-0 ">
+                        <li class="nav-item active "><a class="nav-link text-uppercase " href="#">Home</a></li>
+                        <li class="nav-item "><a class="nav-link text-uppercase " href="#">about</a></li>
+                        <li class="nav-item "><a href="#" class="nav-link text-uppercase ">featuress</a></li>
+                        <li class="nav-item "><a href="#" class="nav-link text-uppercase ">dashbord</a></li>
+                        <li class="nav-item "><a href="#" class="nav-link text-uppercase ">buy now</a></li>
+                        <li class="nav-item "><a href="#" class="nav-link text-uppercase ">testimonal</a>
+                        </li>
+                        <li class="nav-item "><a href="#" class="nav-link text-uppercase ">faq</a></li>
+                        <li class="nav-item "><a href="#" class="nav-link text-uppercase ">contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="">
+                    <p class=" "> <i class="fab fa-envelop "></i> <span> support@webstitename.com
+                        </span>&nbsp;&nbsp;<span>+919665158457</span></p>
+                </div>
+            </div>
+            <div class="col-lg-3 text-center mt-4">
+                <div>
+                    <h1 class="text-uppercase" style="font-size: 25px; "><i class="fas fa-copyright "></i> cc-ico </h1>
+                </div>
+                <div class=" ">&copy; 2020 CO-ICO All Rights Reserved<br>Design by RV</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="./popper.min.js"></script>
+    <script src="./bootstrap.css"></script>
+</body>
+
+</html>
